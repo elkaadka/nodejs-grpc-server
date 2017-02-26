@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-grpc-server",
+  "version": "1.0.0",
+  "description": "A small grpc nodejs server example",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "grpc",
+    "nodejs"
+  ],
+  "author": "Adil El Kanabi",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "grpc": "^1.1.2"
+  }
+}

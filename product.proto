@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package Product;
+
+service Calculator {
+  rpc calculatePrice (Product) returns (Price) {}
+}
+
+message Product {
+  required string name = 1;
+  required int32 quantity = 2;
+  required Price unitPrice = 3;
+}
+
+message Price {
+  required float price = 3;
+}
